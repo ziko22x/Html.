@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Assignment</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            padding: 10px;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>This Is Table Assignment</caption>
+        <thead>
+            <tr>
+                <th>group</th>
+                <th>avatar</th>
+                <th>name</th>
+                <th>email</th>
+                <th>character</th>
+                <th>profile</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">ninja</td>
+                <td><img src="red.jpg" alt="40x40"></td>
+                <td>osama</td>
+                <td>o1@nn.sa</td>
+                <td><input type="radio" name="character1"></td>
+                <td><a href="#">profile</a></td>
+            </tr>
+            <tr>
+                <td><img src="blue.jpg" alt="blue avatar"></td>
+                <td>mohamed</td>
+                <td>o2@nn.sa</td>
+                <td><input type="radio" name="character1"></td>
+                <td><a href="#">profile</a></td>
+            </tr>
+            <tr>
+                <td>monsters</td>
+                <td><img src="black.jpg" alt="40x40"></td>
+                <td colspan="4"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">total</td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

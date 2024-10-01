@@ -1,0 +1,29 @@
+body{
+    position: relative;
+}
+
+.image img{
+    width:300px;
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.demo{
+    color: tomato;
+    h1{
+        color: black;
+    }
+    font-size:x-large;
+}
+.clr-fix{
+    clear: both;
+}
+.info{
+    color: black;
+    background-color: antiquewhite;
+    border-color: brown;
+    font-size: large;
+    z-index: 2;
+}
